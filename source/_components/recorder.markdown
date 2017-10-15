@@ -139,7 +139,7 @@ If you are in a virtual environment, don't forget to activate it before installi
 
 ```bash
 pi@homeassistant:~ $ sudo su homeassistant -s /bin/bash  
-homeassistant@homeassistant:~$ source /srv/homeassistant/bin/activate
+homeassistant@homeassistant:~$ source /srv/homeassistant/homeassistant_venv/bin/activate
 (homeassistant) homeassistant@homeassistant:~$ pip3 install mysqlclient
 ```
 
